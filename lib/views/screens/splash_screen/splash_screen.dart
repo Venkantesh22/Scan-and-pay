@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lekra/views/screens/demo_screen/sceen/demo_dashboard_screen.dart';
 
 import '../../../services/constants.dart';
 import '../../base/custom_image.dart';
@@ -65,6 +66,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     Timer.run(() {
       Future.delayed(const Duration(seconds: 2), () {});
+     navigate(context: context, page: DemoDashboardScreen());
       /*if (Get.find<AuthController>().isLoggedIn()) {
         Get.find<AuthController>().getUserProfileData().then((value) {
           Future.delayed(const Duration(seconds: 2), () {

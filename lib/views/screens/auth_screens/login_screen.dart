@@ -6,7 +6,6 @@ import '../../../services/constants.dart';
 import '../../../services/route_helper.dart';
 import '../../../services/theme.dart';
 import '../../base/common_button.dart';
-import '../../base/custom_toast.dart';
 import 'opt_verification_screen.dart';
 
 class LoginScreen extends StatefulWidget {

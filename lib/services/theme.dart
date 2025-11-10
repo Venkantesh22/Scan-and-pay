@@ -4,13 +4,15 @@ import 'package:google_fonts/google_fonts.dart';
 
 // Color primaryColor = const Color(0xFF941f37);
 // Color secondaryColor = const Color(0xFF941f37).withOpacity(.47);
-Color primaryColor = const Color(0xFFE85D5A);
+const Color primaryColor = const Color(0xFF0C2B4E);
 Color secondaryColor = const Color(0xFFF5F0BB);
 Color backgroundDark = const Color(0xff231F20);
 Color backgroundLight = const Color(0xffffffff);
 
-
 const Color black = Colors.black;
+const Color white = Colors.white;
+Color greyLight = const Color(0xFFC4C4C4);
+Color grey = const Color(0xFF999999);
 
 
 const Color textPrimary = Color(0xff000000);
@@ -152,15 +154,20 @@ class CustomTheme {
       displayMedium: GoogleFonts.openSans(),
       displaySmall: GoogleFonts.openSans(),
       titleLarge: GoogleFonts.openSans(),
-      titleMedium: GoogleFonts.openSans(
-
+      titleMedium: GoogleFonts.openSans(),
+      titleSmall: GoogleFonts.manrope(
+        fontSize: 30,
+        fontWeight: FontWeight.w700,
       ),
-      titleSmall: GoogleFonts.openSans(),
-      bodyLarge: GoogleFonts.openSans(),
-      bodyMedium: GoogleFonts.openSans(),
-      bodySmall: GoogleFonts.openSans(
-        
+      bodyLarge: GoogleFonts.manrope(
+        fontSize: 18,
+        fontWeight: FontWeight.w500,
       ),
+      bodyMedium: GoogleFonts.manrope(
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+      ),
+      bodySmall: GoogleFonts.openSans(),
     ),
   );
 }

@@ -11,3 +11,4 @@ class DashBoardController extends GetxController implements GetxService {
     update();
   }
 }
+
